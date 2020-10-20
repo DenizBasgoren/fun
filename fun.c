@@ -1,6 +1,6 @@
 
 #include <stdio.h>
-#include "deniz.h"
+#include "fun.h"
 
 
 

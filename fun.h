@@ -1,18 +1,18 @@
-#ifndef _DENIZ_H
-#define _DENIZ_H
+#ifndef FUN_H
+#define FUN_H
 
 
 /*
 	HOW TO USE THIS LIBRARY
 
 	Include this header at the top of the files, in which you use this library.
-	DO NOT include the actual library (deniz.c)
+	DO NOT include the actual library (fun.c)
 	NEVER change the filenames in any library.
 	Also note that we use " " instead of < > because the header is not in the system include folder.
 
 	Example:
 		#include <stdio.h>
-		#include "deniz.h"
+		#include "fun.h"
 
 		int main() {
 			setCursorColor(GREEN);
@@ -213,4 +213,4 @@ void clearScreen();
 
 
 
-#endif
+#endif // FUN_H
